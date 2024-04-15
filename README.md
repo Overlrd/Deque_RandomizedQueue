@@ -3,7 +3,7 @@ Write a generic data type for a deque and a randomized queue. The goal of this a
 **Dequeue.** A _double-ended queue_ or _deque_ (pronounced “deck”) is a generalization of a stack and a queue that supports adding and removing items from either the front or the back of the data structure. Create a generic data type `Deque` that implements the following API:
 
 > ```
-> public class Deque&lt;Item&gt; implements Iterable&lt;Item&gt; {
+> public class Deque<Item> implements Iterable<Item> {
 > 
 >     
 >     public Deque()
@@ -27,7 +27,7 @@ Write a generic data type for a deque and a randomized queue. The goal of this a
 >     public Item removeLast()
 > 
 >     
->     public Iterator&lt;Item&gt; iterator()
+>     public Iterator<Item> iterator()
 > 
 >     
 >     public static void main(String[] args)
@@ -49,7 +49,7 @@ _Performance requirements._  Your deque implementation must support each deque 
 **Randomized queue.** A _randomized queue_ is similar to a stack or queue, except that the item removed is chosen uniformly at random among items in the data structure. Create a generic data type `RandomizedQueue` that implements the following API:
 
 > ```
-> public class RandomizedQueue&lt;Item&gt; implements Iterable&lt;Item&gt; {
+> public class RandomizedQueue<Item> implements Iterable<Item> {
 > 
 >     
 >     public RandomizedQueue()
@@ -70,7 +70,7 @@ _Performance requirements._  Your deque implementation must support each deque 
 >     public Item sample()
 > 
 >     
->     public Iterator&lt;Item&gt; iterator()
+>     public Iterator<Item> iterator()
 > 
 >     
 >     public static void main(String[] args)
